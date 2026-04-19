@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "key": "pet_bed",
+      "parent_asin": "B0C4BFWLNC",
+      "meta_file": "meta_Pet_Supplies.jsonl",
+      "reviews_file": "Pet_Supplies.jsonl",
+      "review_cleaning": {
+        "review_rows_in_file_for_asin": 14024,
+        "after_length_filter": 13184,
+        "min_text_chars_exclusive": 20,
+        "rule": "len(text) > 20 (strictly more than 20 characters).",
+        "target_reviews": 500,
+        "included": 500,
+        "reached_target_count": true
+      }
+    },
+    {
+      "key": "cerave_hydrating_facial_cleanser",
+      "parent_asin": "B0BG9Q18ZZ",
+      "meta_file": "meta_Beauty_and_Personal_Care.jsonl",
+      "reviews_file": "Beauty_and_Personal_Care.jsonl",
+      "review_cleaning": {
+        "review_rows_in_file_for_asin": 4703,
+        "after_length_filter": 4250,
+        "min_text_chars_exclusive": 20,
+        "rule": "len(text) > 20 (strictly more than 20 characters).",
+        "target_reviews": 500,
+        "included": 500,
+        "reached_target_count": true
+      }
+    },
+    {
+      "key": "hat_washer",
+      "parent_asin": "B0BXSQN4HV",
+      "meta_file": "meta_Appliances.jsonl",
+      "reviews_file": "Appliances.jsonl",
+      "review_cleaning": {
+        "review_rows_in_file_for_asin": 1286,
+        "after_length_filter": 1086,
+        "min_text_chars_exclusive": 20,
+        "rule": "len(text) > 20 (strictly more than 20 characters).",
+        "target_reviews": 500,
+        "included": 500,
+        "reached_target_count": true
+      }
+    }
+  ]
+}

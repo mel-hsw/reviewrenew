@@ -1,0 +1,15 @@
+# Secrets — never commit. If .env was committed before ignore rules, run: git rm --cached .env
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+data/chroma/
+# Large Amazon Reviews 2023 JSONL slices — omit from Git for fast clones; use https://amazon-reviews-2023.github.io/ + `git add -f` if you must commit slices.
+data/raw/amazon_reviews_2023/*.jsonl
+outputs/

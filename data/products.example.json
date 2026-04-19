@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "asin": "B07SY92CQY",
+      "title": "Example product title",
+      "category": "Grocery & Gourmet Food",
+      "description": "Paste the product description / bullet points from the listing.",
+      "listing_image_urls": [
+        "https://example.com/listing-image-1.jpg"
+      ],
+      "reviews": [
+        {
+          "rating": 5,
+          "title": "Great",
+          "text": "Paste review body text here.",
+          "date": "2024-01-15"
+        }
+      ]
+    }
+  ]
+}
