@@ -11,23 +11,56 @@ Multistep **AI workflow**: listing + reviews → **Chroma RAG** → **two struct
 This project uses an **orchestrated multistep pipeline** (fixed sequence, validated handoffs)—not open-ended autonomous agents. That matches a typical **Q4 “agentic workflow”** deliverable: distinct stages, clear artifacts, supervisor logging, and **harnessed** LLM calls with schema validation.
 
 ```mermaid
-flowchart LR
-  subgraph Q1["Q1 Catalog (offline)"]
-    R[data/raw/ slices]
-    S[scripts/consolidate_products.py]
-    C[data/products.json]
-    R --> S --> C
+flowchart TD
+  subgraph Q1["Q1: Data Collection"]
+    Products["3 Products"]
+    Reviews["Amazon Reviews 2023"]
   end
 
-  subgraph Run["Supervisor — run_pipeline.py → src/agent.py"]
-    I[Index + retrieve]
-    A2[Q2 analyst LLM + RAG]
-    A3[Q3 creative LLM]
-    M[Merge → ImagePromptBundle]
-    I --> A2 --> A3 --> M
+  subgraph Q2["Q2: RAG + Insights Analysis"]
+    Chunk["Chunk & Embed<br/>(paragraph batch)"]
+    Chroma["ChromaDB Index"]
+    MQR["Multi-Query Retrieval<br/>(12 targeted queries)"]
+    Analyst["LLM Analyst<br/>(gpt-5.4-mini)"]
+    Brief["ReviewImageryBrief<br/>(shot plans + rationales)"]
   end
 
-  Q1 --> Run
+  subgraph Q3["Q3: Creative Direction"]
+    Creative["Creative Director LLM<br/>(gpt-5.4-mini)"]
+    Prompts["CreativePromptPack<br/>(optimized prompts)"]
+  end
+
+  subgraph ImageGen["Image Generation + Critic Loop"]
+    GenOAI["Generate: OpenAI<br/>(dall-e-3)"]
+    GenGemini["Generate: Gemini<br/>(gemini-3.1-flash)"]
+    Critic["Critic Agent (VLM)<br/>Evaluate images"]
+    Reject["Reject + Archive<br/>(/rejected/)"]
+    Revise["Suggest Prompt<br/>Revision"]
+  end
+
+  subgraph Eval["Evaluation"]
+    Score["VLM Scoring<br/>(5 dimensions)"]
+    Analysis["Analysis &<br/>Recommendations"]
+  end
+
+  Products --> Chunk
+  Reviews --> Chunk
+  Chunk --> Chroma
+  Chroma --> MQR
+  MQR --> Analyst
+  Analyst --> Brief
+  Brief --> Creative
+  Creative --> Prompts
+  Prompts --> GenOAI
+  Prompts --> GenGemini
+  GenOAI --> Critic
+  GenGemini --> Critic
+  Critic -->|Pass| Score
+  Critic -->|Fail| Reject
+  Reject --> Revise
+  Revise --> GenOAI
+  Revise --> GenGemini
+  Score --> Analysis
 ```
 
 | Stage | Responsibility | Code / artifact |
