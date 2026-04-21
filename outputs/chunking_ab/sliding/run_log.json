@@ -1,0 +1,127 @@
+{
+  "experiment": {
+    "skip_images": true
+  },
+  "models_used": {
+    "text": "gpt-5.4-mini",
+    "embedding": "text-embedding-3-small",
+    "openai_image_model": "chatgpt-image-latest",
+    "gemini_image_model": "gemini-3.1-flash-image-preview",
+    "image_size": "1024x1024",
+    "image_quality": null,
+    "gemini_image_resolution": "1K",
+    "openai_image_prompt_suffix": "Emphasize crisp commercial lighting and a catalog-ready composition.",
+    "gemini_image_prompt_suffix": "Render as one coherent photographic scene; single clear focal subject."
+  },
+  "steps": [
+    {
+      "step": "index_chunks",
+      "detail": "B0C4BFWLNC: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0C4BFWLNC: 502 chunks in vector store"
+    },
+    {
+      "step": "llm_rag_analysis",
+      "detail": "B0C4BFWLNC: structured visual bundle"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC_image_prompt_bundle.json"
+    },
+    {
+      "step": "index_chunks",
+      "detail": "B0BG9Q18ZZ: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0BG9Q18ZZ: 502 chunks in vector store"
+    },
+    {
+      "step": "llm_rag_analysis",
+      "detail": "B0BG9Q18ZZ: structured visual bundle"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ_image_prompt_bundle.json"
+    },
+    {
+      "step": "index_chunks",
+      "detail": "B0BXSQN4HV: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0BXSQN4HV: 502 chunks in vector store"
+    },
+    {
+      "step": "llm_rag_analysis",
+      "detail": "B0BXSQN4HV: structured visual bundle"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV_image_prompt_bundle.json"
+    }
+  ],
+  "analysis_meta": {
+    "B0C4BFWLNC": {
+      "retrieval_queries": [
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What defects, damage, misleading pictures, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What do reviews say about smell, scent, fragrance, chemical odor, natural ingredients, or formula?",
+        "What about cleaning results, residue, slipperiness, whitening, efficacy, comfort, or how well it works?",
+        "What tactile qualities do customers mention: softness, firmness, plushness, warmth, coolness, weight, rigidity, or hand-feel?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply: cozy, clinical, bright gym, laundry room, nursery, minimalist studio?"
+      ],
+      "unique_chunks_used": 46,
+      "model": "gpt-5.4-mini",
+      "chunking": {
+        "strategy": "sliding",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      }
+    },
+    "B0BG9Q18ZZ": {
+      "retrieval_queries": [
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What defects, damage, misleading pictures, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What do reviews say about smell, scent, fragrance, chemical odor, natural ingredients, or formula?",
+        "What about cleaning results, residue, slipperiness, whitening, efficacy, comfort, or how well it works?",
+        "What tactile qualities do customers mention: softness, firmness, plushness, warmth, coolness, weight, rigidity, or hand-feel?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply: cozy, clinical, bright gym, laundry room, nursery, minimalist studio?"
+      ],
+      "unique_chunks_used": 41,
+      "model": "gpt-5.4-mini",
+      "chunking": {
+        "strategy": "sliding",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      }
+    },
+    "B0BXSQN4HV": {
+      "retrieval_queries": [
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What defects, damage, misleading pictures, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What do reviews say about smell, scent, fragrance, chemical odor, natural ingredients, or formula?",
+        "What about cleaning results, residue, slipperiness, whitening, efficacy, comfort, or how well it works?",
+        "What tactile qualities do customers mention: softness, firmness, plushness, warmth, coolness, weight, rigidity, or hand-feel?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply: cozy, clinical, bright gym, laundry room, nursery, minimalist studio?"
+      ],
+      "unique_chunks_used": 43,
+      "model": "gpt-5.4-mini",
+      "chunking": {
+        "strategy": "sliding",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      }
+    }
+  },
+  "image_paths": {
+    "B0C4BFWLNC": {},
+    "B0BG9Q18ZZ": {},
+    "B0BXSQN4HV": {}
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product_summary": "CeraVe Hydrating Facial Cleanser is a lotion-textured, non-foaming face wash described as gentle, smooth, and made for daily cleansing without that stripped, tight after-feel. Reviewers repeatedly frame it as clean, soft, and moisturizing, with a near-unscented profile that reads clinical and calm rather than perfumed. The overall mood is practical and comforting: a face wash that feels like a light lotion, rinses into a fresh finish, and is often praised for leaving skin hydrated and not harsh. A few reviewers note packaging and pump issues, so the product’s visual story should feel sturdy and honest, not overly luxe or glossy.",
+  "visual_attributes": [
+    "opaque white plastic bottle with a simple, utilitarian silhouette",
+    "compact cylindrical form with a short neck and practical pump/cap profile",
+    "soft matte-to-satin surface that reads clean rather than shiny",
+    "minimal, clinical color palette: white, pale blue, and restrained neutral tones",
+    "lotion-like contents implied by a creamy, milky visual density",
+    "straightforward pharmacy-style packaging with no decorative flourish"
+  ],
+  "material_and_texture_cues": [
+    "smooth, creamy lotion texture that looks thin but cushioned",
+    "non-foaming liquid with a light lotion glide rather than bubbly lather",
+    "soft, damp skin finish that reads moisturized instead of greasy",
+    "plastic bottle surface that should appear clean, sturdy, and easy to grip",
+    "subtle wet sheen on hands or face after use, not a slick oily shine",
+    "gentle, spreadable consistency that looks easy to rub in on damp skin"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "fragrance-free or nearly scentless profile, with reviewers repeatedly noting no scent or very light scent",
+    "cleaning that feels gentle and non-stripping, leaving skin soft, hydrated, and not tight",
+    "makeup removal is mentioned as workable for some users, though not universally strong on eye makeup",
+    "non-foaming, lotion-like wash behavior rather than soap suds",
+    "fresh, clean after-feel without a harsh chemical impression",
+    "comfort cues tied to hydration and a moisturized finish, with some users describing a subtle clean, refreshing feeling"
+  ],
+  "customer_visual_consensus": "Most reviewers describe a calm, lotion-soft cleansing experience that feels smooth on damp skin and leaves the face clean without the dry, stripped look. The dominant atmosphere is quiet and clinical: unscented or very lightly scented, gentle, and moisturizing, with a finish that reads soft and hydrated. A smaller but important thread mentions packaging failures, so the product should not be staged as fragile luxury; it should look practical, dependable, and ready for daily use.",
+  "pitfalls_to_avoid": [
+    "do not show a foamy, bubbly cleanser",
+    "do not make the bottle look overly glossy, decorative, or luxury-cosmetic",
+    "do not imply a strong fragrance or perfume cloud",
+    "do not stage a greasy, oily finish on skin",
+    "do not include readable fake labels or brand logos beyond the product itself",
+    "do not depict broken pumps, leaking caps, or spilled product unless illustrating a packaging problem intentionally",
+    "do not use ingredients or benefits not supported by the description and reviews"
+  ],
+  "visual_translation_notes": "Stage the product like a quiet pharmacy staple in crisp, cool daylight with soft bounce fill, so the white bottle feels clean, dependable, and unflashy. Translate the near-unscented, gentle reputation into photographable calm: a tidy sink edge, a folded white towel, a few water droplets, and a damp hand or cheek with a soft, moisturized sheen rather than shine. Because reviewers emphasize lotion-like smoothness and non-foaming behavior, show the cleanser as a creamy, spreadable ribbon on fingertips or a palm, with no suds and no aggressive splash. Keep the palette restrained—white, pale blue, soft gray, and skin tones—so the image feels fresh, clinical, and soothing. To acknowledge packaging concerns without overemphasizing them, make the bottle look upright, sealed, and intact, with the pump/cap area clean and functional. The overall mood should be practical comfort: a daily cleanser that looks gentle enough for sensitive, dry, or normal skin, and honest enough to trust on first glance.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "Reviewers consistently call this a staple, a favorite, and a good-quality cleanser that feels clean and soft. The hero frame should present that dependable, no-fuss identity while also countering complaints about leakage by making the bottle look intact and secure.",
+      "prompt": "Photorealistic studio hero shot of a single CeraVe Hydrating Facial Cleanser bottle standing upright on a clean pale stone surface, front-facing with no readable text emphasized, simple pharmacy-style packaging, opaque white plastic with a practical pump/cap silhouette, subtle satin sheen, minimal clinical palette of white, soft blue, and cool gray. Bright but soft daylight from the left, gentle bounce fill, crisp shadow control, high-end e-commerce composition with plenty of negative space. The bottle should look sturdy, intact, and everyday-use practical, not luxurious or decorative. Add a faint damp reflection under the base and a folded white towel blurred in the background for a fresh, hygienic atmosphere. Ultra-detailed, realistic materials, no fake logos, no legible label text, no foam, no clutter."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Many reviewers describe the cleanser as feeling like a light lotion on damp skin, smooth and pleasant, with a clean finish and little to no scent. This shot should show the non-foaming application and the soft, hydrated after-feel people keep mentioning.",
+      "prompt": "Photorealistic bathroom lifestyle scene, close three-quarter view of a person applying a small amount of creamy cleanser to damp hands and cheeks at a sink, with no visible brand text. The cleanser appears as a smooth, lotion-like white emulsion spread thinly across fingertips, not foamy, not bubbly. Soft morning daylight through a frosted window, clean white tile, brushed chrome faucet, folded cotton towel, and a calm, uncluttered countertop. Skin should look freshly washed with a subtle moisturized sheen, not greasy, not red. The mood is gentle and practical, like a daily routine that feels soft and reassuring. Natural hand movement, realistic water droplets, crisp focus on the creamy texture, premium editorial realism, no fake trademarks."
+    },
+    {
+      "shot_index": 3,
+      "role": "ingredients_sensorial",
+      "rationale_from_reviews": "The strongest sensory consensus is fragrance-free or nearly scentless, smooth, and hydrating. Since the formula is described as lotion-like and non-foaming, this frame should translate that quiet, creamy experience into a clean visual still life.",
+      "prompt": "Editorial macro still life of a small ribbon of creamy cleanser on a white ceramic dish beside a few clear water droplets and a neatly folded cotton pad, photographed like a sensorial product study. The cleanser should look smooth, thin, and lotion-like with a soft satin body, no bubbles, no foam, no oily separation. Cool neutral lighting with a slight daylight gradient, crisp highlights on the wet edges, and a soft shadow that emphasizes purity and calm. Surrounding props should stay minimal: white towel fibers, pale blue glass, and a clean sink surface. The composition should communicate fragrance-free freshness through visual restraint, not perfume cues. Ultra-realistic texture, clean studio styling, no readable labels, no brand marks."
+    },
+    {
+      "shot_index": 4,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Reviewers repeatedly mention smoothness, softness, and the way it feels on skin without stripping. A macro detail shot can make that tactile promise visible through the bottle finish, the pump area, and the creamy consistency.",
+      "prompt": "Extreme macro product detail of the cleanser bottle and a small amount of product on a fingertip, showing the opaque white plastic, subtle molded curves, and the creamy cleanser’s smooth, spreadable texture. Focus on tactile realism: soft satin plastic, clean edges, a controlled wet sheen, and a lotion-like film that looks easy to rub in. Lighting should be crisp studio daylight with gentle specular highlights, revealing a clean, clinical surface rather than glossy luxury. Background falls away into soft blur with white towel fibers and a pale sink edge. The image should feel calm, hygienic, and trustworthy, with no foam, no harsh shine, no readable text, and no damaged packaging."
+    },
+    {
+      "shot_index": 5,
+      "role": "context_lifestyle",
+      "rationale_from_reviews": "The reviews cluster around daily use, morning and night routines, and a clean, refreshing, moisturized finish. This broader context shot should make the cleanser feel like a dependable bathroom staple rather than a special-occasion beauty object.",
+      "prompt": "Photorealistic lifestyle scene in a serene bathroom at soft morning light, the cleanser bottle placed beside a simple sink setup with a white hand towel, a glass of water, and a neatly arranged skincare routine. The bottle remains the visual anchor: upright, intact, practical, and understated, with a clean white silhouette and subtle satin finish. The environment should feel fresh and organized, with cool daylight, pale stone, brushed metal, and soft fabric textures. Add a faint suggestion of moisture on the counter and a calm, non-greasy skin glow on a hand resting nearby. The overall mood is quiet, dependable, and gently clinical, matching the fragrance-free, non-foaming, moisturizing experience described in reviews. No fake logos, no legible label text, no foam, no clutter."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "experiment": {
+    "skip_images": false
+  },
+  "models_used": {
+    "text": "gpt-5.4-mini",
+    "text_q3_creative": "gpt-5.4-mini",
+    "embedding": "text-embedding-3-small",
+    "openai_image_model": "chatgpt-image-latest",
+    "gemini_image_model": "gemini-3.1-flash-image-preview",
+    "image_size": "1024x1024",
+    "image_quality": null,
+    "gemini_image_resolution": "1K",
+    "openai_image_prompt_suffix": "Emphasize crisp commercial lighting and a catalog-ready composition.",
+    "gemini_image_prompt_suffix": "Render as one coherent photographic scene; single clear focal subject."
+  },
+  "steps": [
+    {
+      "step": "index_chunks",
+      "detail": "B0C4BFWLNC: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0C4BFWLNC: 502 chunks in vector store"
+    },
+    {
+      "step": "q2_analyst",
+      "detail": "B0C4BFWLNC: model=gpt-5.4-mini duration_ms=13987.3"
+    },
+    {
+      "step": "q3_creative",
+      "detail": "B0C4BFWLNC: model=gpt-5.4-mini duration_ms=4886.04"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC_image_prompt_bundle.json"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC openai chatgpt-image-latest 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC openai chatgpt-image-latest 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC openai chatgpt-image-latest 02_3_detail_macro"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC gemini gemini-3.1-flash-image-preview 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC gemini gemini-3.1-flash-image-preview 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0C4BFWLNC gemini gemini-3.1-flash-image-preview 02_3_detail_macro"
+    },
+    {
+      "step": "index_chunks",
+      "detail": "B0BG9Q18ZZ: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0BG9Q18ZZ: 502 chunks in vector store"
+    },
+    {
+      "step": "q2_analyst",
+      "detail": "B0BG9Q18ZZ: model=gpt-5.4-mini duration_ms=13916.78"
+    },
+    {
+      "step": "q3_creative",
+      "detail": "B0BG9Q18ZZ: model=gpt-5.4-mini duration_ms=5819.44"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ_image_prompt_bundle.json"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ openai chatgpt-image-latest 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ openai chatgpt-image-latest 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ openai chatgpt-image-latest 02_3_ingredients_or_sensorial_or_formula"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ gemini gemini-3.1-flash-image-preview 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ gemini gemini-3.1-flash-image-preview 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BG9Q18ZZ gemini gemini-3.1-flash-image-preview 02_3_ingredients_or_sensorial_or_formula"
+    },
+    {
+      "step": "index_chunks",
+      "detail": "B0BXSQN4HV: embedding listing + reviews"
+    },
+    {
+      "step": "rag_indexed",
+      "detail": "B0BXSQN4HV: 502 chunks in vector store"
+    },
+    {
+      "step": "q2_analyst",
+      "detail": "B0BXSQN4HV: model=gpt-5.4-mini duration_ms=12800.42"
+    },
+    {
+      "step": "q3_creative",
+      "detail": "B0BXSQN4HV: model=gpt-5.4-mini duration_ms=5196.27"
+    },
+    {
+      "step": "saved_bundle",
+      "detail": "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV_image_prompt_bundle.json"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV openai chatgpt-image-latest 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV openai chatgpt-image-latest 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV openai chatgpt-image-latest 02_3_detail_macro"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV gemini gemini-3.1-flash-image-preview 00_1_hero_product"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV gemini gemini-3.1-flash-image-preview 01_2_consumer_in_use"
+    },
+    {
+      "step": "image_gen",
+      "detail": "B0BXSQN4HV gemini gemini-3.1-flash-image-preview 02_3_detail_macro"
+    }
+  ],
+  "analysis_meta": {
+    "B0C4BFWLNC": {
+      "retrieval_queries": [
+        "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+        "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+        "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+        "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+        "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most\u2014what should marketing imagery emphasize?",
+        "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat\u2014independent agreement worth highlighting?",
+        "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look\u2014anything that signals on-shelf or on-brand appearance?"
+      ],
+      "unique_chunks_used": 69,
+      "chunking": {
+        "strategy": "paragraph_batch",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      },
+      "openai_text_model_q2": "gpt-5.4-mini",
+      "openai_text_model_q3": "gpt-5.4-mini",
+      "q2_harness": {
+        "agent_id": "q2_analyst",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 13987.3,
+        "prompt_tokens": 8456,
+        "completion_tokens": 2095,
+        "total_tokens": 10551
+      },
+      "q3_harness": {
+        "agent_id": "q3_creative",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 4886.04,
+        "prompt_tokens": 3444,
+        "completion_tokens": 721,
+        "total_tokens": 4165
+      }
+    },
+    "B0BG9Q18ZZ": {
+      "retrieval_queries": [
+        "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+        "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+        "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+        "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+        "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most\u2014what should marketing imagery emphasize?",
+        "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat\u2014independent agreement worth highlighting?",
+        "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look\u2014anything that signals on-shelf or on-brand appearance?"
+      ],
+      "unique_chunks_used": 54,
+      "chunking": {
+        "strategy": "paragraph_batch",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      },
+      "openai_text_model_q2": "gpt-5.4-mini",
+      "openai_text_model_q3": "gpt-5.4-mini",
+      "q2_harness": {
+        "agent_id": "q2_analyst",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 13916.78,
+        "prompt_tokens": 5827,
+        "completion_tokens": 2319,
+        "total_tokens": 8146
+      },
+      "q3_harness": {
+        "agent_id": "q3_creative",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 5819.44,
+        "prompt_tokens": 3611,
+        "completion_tokens": 731,
+        "total_tokens": 4342
+      }
+    },
+    "B0BXSQN4HV": {
+      "retrieval_queries": [
+        "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+        "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+        "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+        "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+        "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+        "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+        "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+        "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+        "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+        "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most\u2014what should marketing imagery emphasize?",
+        "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat\u2014independent agreement worth highlighting?",
+        "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look\u2014anything that signals on-shelf or on-brand appearance?"
+      ],
+      "unique_chunks_used": 55,
+      "chunking": {
+        "strategy": "paragraph_batch",
+        "max_tokens": 400,
+        "overlap_tokens": 60
+      },
+      "openai_text_model_q2": "gpt-5.4-mini",
+      "openai_text_model_q3": "gpt-5.4-mini",
+      "q2_harness": {
+        "agent_id": "q2_analyst",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 12800.42,
+        "prompt_tokens": 4509,
+        "completion_tokens": 2056,
+        "total_tokens": 6565
+      },
+      "q3_harness": {
+        "agent_id": "q3_creative",
+        "model": "gpt-5.4-mini",
+        "attempts": 1,
+        "duration_ms": 5196.27,
+        "prompt_tokens": 3101,
+        "completion_tokens": 769,
+        "total_tokens": 3870
+      }
+    }
+  },
+  "image_paths": {
+    "B0C4BFWLNC": {
+      "openai": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/openai/00_1_hero_product_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/openai/01_2_consumer_in_use_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/openai/02_3_detail_macro_chatgpt_image_latest_00.png"
+      ],
+      "gemini": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/gemini/00_1_hero_product_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/gemini/01_2_consumer_in_use_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0C4BFWLNC/gemini/02_3_detail_macro_gemini-3_1-flash-image-preview_00.png"
+      ]
+    },
+    "B0BG9Q18ZZ": {
+      "openai": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/openai/00_1_hero_product_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/openai/01_2_consumer_in_use_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/openai/02_3_ingredients_or_sensorial_or_formula_chatgpt_image_latest_00.png"
+      ],
+      "gemini": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/gemini/00_1_hero_product_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/gemini/01_2_consumer_in_use_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BG9Q18ZZ/gemini/02_3_ingredients_or_sensorial_or_formula_gemini-3_1-flash-image-preview_00.png"
+      ]
+    },
+    "B0BXSQN4HV": {
+      "openai": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/openai/00_1_hero_product_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/openai/01_2_consumer_in_use_chatgpt_image_latest_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/openai/02_3_detail_macro_chatgpt_image_latest_00.png"
+      ],
+      "gemini": [
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/gemini/00_1_hero_product_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/gemini/01_2_consumer_in_use_gemini-3_1-flash-image-preview_00.png",
+        "/Users/mel/Documents/CMU/Spring 2026 Gen AI/Project/outputs/B0BXSQN4HV/gemini/02_3_detail_macro_gemini-3_1-flash-image-preview_00.png"
+      ]
+    }
+  }
+}

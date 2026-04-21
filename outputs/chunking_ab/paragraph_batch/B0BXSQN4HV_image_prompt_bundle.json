@@ -1,0 +1,69 @@
+{
+  "product_summary": "YEENOR’s hat washer is a white, rigid plastic cage designed to hold baseball caps in shape while they’re washed, dried, or stored. Reviewers repeatedly describe it as simple, easy to use, and effective at keeping hats looking clean and retaining their form, with a practical, no-frills feel. The dominant mood is utilitarian and fresh: people like that hats come out clean, smell better or fresh again, and stay structured. A few reviews also warn that the material can feel cheap or brittle, so the visual story should balance sturdy function with honest plastic texture.",
+  "visual_attributes": [
+    "white molded plastic frame with a compact, cage-like silhouette",
+    "four-sided clip structure with open lattice spacing around the brim area",
+    "clean matte-to-slightly-satin surface, not glossy chrome or polished metal",
+    "paired units presented as a simple two-pack, minimal and utilitarian",
+    "rounded cap-holding contours sized for adult and kid baseball caps",
+    "rigid ribs and straight edges that read as protective and shape-preserving"
+  ],
+  "material_and_texture_cues": [
+    "hard molded plastic with visible ribbing and firm edges",
+    "slightly flexible but mostly rigid shell-like structure",
+    "clip points that look easy to open and lock shut",
+    "smooth white surfaces with a practical, washable finish",
+    "lightweight construction that should feel sturdy in hand, not plush or padded",
+    "honest plastic texture that should not be over-polished or disguised"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "reviewers say hats come out clean, fresh, and smelling better or new again",
+    "the product is associated with removing sweat-stained, stale hat odor visually through clean laundry cues",
+    "no fragrance or ingredient story is built into the product itself; it is a plastic form, not a scented item",
+    "freshness should be translated with clean water, air-dry moments, and crisp laundry staging rather than perfume claims",
+    "some reviewers mention the hats staying in shape through wash and dry cycles, so show taut brims and intact curves"
+  ],
+  "customer_visual_consensus": "Most reviewers agree the product is straightforward, functional, and easy to use. The visual consensus is clean and practical: hats stay secure, keep their shape, and come out looking fresh and clean. The atmosphere is more laundry-room utility than luxury, with a strong emphasis on simple operation and dependable results. A minority of reviews raise concerns about brittle plastic or pieces breaking off, so the product should not be portrayed as heavy-duty metal or premium rubberized gear.",
+  "pitfalls_to_avoid": [
+    "do not show black, metal, or brightly colored frames; the product is white plastic",
+    "do not make it look padded, plush, or fabric-covered",
+    "do not imply a front-loading washer if the product is shown in a machine context; reviews and description favor dishwasher/portable washer use",
+    "do not exaggerate luxury gloss or premium industrial finish; some reviews call out cheap-looking plastic",
+    "do not show readable brand logos, fake labels, or trademarked detergent packaging",
+    "do not depict broken shards, but avoid making the material look indestructible or metal-tough",
+    "do not oversell scent claims; keep freshness visual and tied to reviewer language"
+  ],
+  "visual_translation_notes": "Stage the product in crisp, honest light that makes the white plastic read clearly: soft daylight or clean studio bounce, with enough contrast to reveal the ribs, clips, and open spacing without turning it into a glossy prop. For the freshness and clean-smelling feedback, use photographable cues rather than invented fragrance—steam-like warmth from a dishwasher scene, a neatly folded towel, a clean sink edge, and a hat with a visibly refreshed brim and smooth crown. To echo the shape-preserving praise, show the cap seated snugly in the cage with the bill held in a natural curve, and pair it with a second unit to reinforce the two-pack value. Keep the environment practical and domestic: laundry room, dishwasher rack, or a tidy utility surface with lint-free, neutral textiles. Because some reviewers mention brittle plastic, the lighting should be honest and detailed enough to show the material’s molded texture and edges, not a heavy-duty fantasy finish.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "Reviewers repeatedly call it simple, easy to use, and functional, so the hero should present the object plainly and accurately. The white plastic and cage-like structure need to read immediately, while the two-pack format reinforces the value people mention.",
+      "prompt": "Photorealistic studio hero shot of a two-pack white plastic baseball cap washer cage, isolated on a clean neutral background, front three-quarter angle showing the four-sided clip design, open lattice spacing, and rigid brim-supporting curve. Soft daylight-balanced studio lighting with gentle bounce, crisp shadows, and subtle surface sheen that reveals molded ribs without looking glossy. The product should feel lightweight but sturdy, with honest plastic texture and clean edges. Minimal premium e-commerce styling, no props, no readable text, no logos, no extra objects, ultra-detailed product photography, sharp focus, natural white balance."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Many reviews emphasize that the cage holds hats secure in the wash and keeps their shape through washing and drying. Showing a cap locked into the frame inside a dishwasher or washer context directly addresses the main promise and the most common praise.",
+      "prompt": "Photorealistic lifestyle scene inside a clean dishwasher rack or laundry utility setting, showing a baseball cap secured inside the white plastic hat washer cage, brim held in a natural curve and crown supported by the frame. The environment is tidy and realistic, with soft reflections on stainless surfaces, clean water droplets, and a calm domestic atmosphere. Use cool daylight mixed with soft indoor bounce for a fresh, practical look. Include only neutral household elements, no brand markings, no readable detergent labels, no front-load washer door emphasis. The image should communicate easy use, secure fit, and shape retention, with the hat looking clean and protected."
+    },
+    {
+      "shot_index": 3,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Supportive reviews praise sturdy material and easy locking, while critical reviews complain about cheap plastic, shavings, and breakage. A close detail shot should honestly show the molded ribs, clip points, and surface finish so buyers can judge the build quality.",
+      "prompt": "Extreme macro product detail of the white molded plastic hat washer cage, focusing on the clip mechanism, ribbed reinforcement, and the curved brim-supporting edge. Crisp studio lighting with high micro-contrast to reveal smooth plastic planes, fine molding lines, and the practical, utilitarian finish. The shot should feel tactile and honest: rigid edges, slightly satin surface, and visible structural ribs, not glossy or metallic. Background softly blurred in neutral gray-white tones. No labels, no logos, no extra accessories. The composition should make the product’s shape-holding function and plastic construction immediately legible."
+    },
+    {
+      "shot_index": 4,
+      "role": "fresh_laundry_context",
+      "rationale_from_reviews": "Several reviewers say hats come out clean, fresh, or smelling better/new again, and some mention sweat stains or stale odor. This frame should translate that freshness into visible laundry cues without inventing fragrance claims.",
+      "prompt": "Photorealistic laundry-room still life featuring the white hat washer cage beside a freshly cleaned baseball cap on a lint-free towel, with subtle water droplets, a softly folded white cloth, and a clean, airy background. Use bright but gentle daylight with cool highlights and soft shadows to suggest freshness and cleanliness. The cap should look refreshed, with a smooth brim and tidy crown, while the cage sits nearby as the practical tool that kept its shape. No perfume bottles, no readable labels, no brand logos. The mood is crisp, calm, and freshly washed, with a modest domestic atmosphere and realistic textures."
+    },
+    {
+      "shot_index": 5,
+      "role": "storage_travel_context",
+      "rationale_from_reviews": "The description mentions travel and storage, and reviewers like that hats stay protected and in shape. A contextual shot helps show the cage as a reusable organizer, not just a wash accessory, while keeping the tone practical and tidy.",
+      "prompt": "Photorealistic lifestyle scene on a clean shelf or inside a neatly packed travel bag, showing the white hat washer cage holding a baseball cap in a protected, organized position. The setting should feel orderly and practical, with neutral textiles, a folded shirt or towel, and soft daylight creating a calm, travel-ready mood. Emphasize the rigid shell, secure clips, and compact shape that make storage feel safe and simple. Surfaces should be matte-clean and realistic, with no logos, no readable text, and no luxury styling. The overall impression is reusable, dependable, and easy to tuck away between uses."
+    }
+  ]
+}

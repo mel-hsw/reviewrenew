@@ -1,0 +1,72 @@
+{
+  "product_summary": "This bundle pairs Best Friends by Sheri’s round Calming Donut Cuddler bed with a matching Lux fur throw blanket in a deep dark chocolate tone. The official description emphasizes a plush, self-warming, burrow-friendly feel with a raised rim for head, neck, and joint support, and reviewers repeatedly describe the experience as soft, squishy, cushy, and cozy. The mood is overwhelmingly nest-like and comforting, with many pets curling into the sides or sinking into the center, while a few reviews note that the look and texture can vary by size and wash care. Overall, it reads as a warm, plush pet-lounge setup with a premium, cozy aesthetic that people want to keep in living spaces.",
+  "visual_attributes": [
+    "round donut silhouette with a raised outer rim and a lower, sink-in center",
+    "dark chocolate brown palette with a soft, neutral, home-friendly presence",
+    "long plush surface that reads fluffy rather than glossy",
+    "matching throw blanket with the same velvety, fur-like finish",
+    "full, cushioned profile that looks lofted and nest-like",
+    "soft edges and a cozy, slightly shaggy surface texture",
+    "compact medium size that feels roomy enough for a curled-up pet"
+  ],
+  "material_and_texture_cues": [
+    "plush vegan-fur look with a soft, cushy hand",
+    "squishy filling that visually holds a rounded loft",
+    "raised bolster rim that looks pillow-like and supportive",
+    "furry blanket drape with a warm, enveloping texture",
+    "matte-to-soft sheen rather than slick or shiny fabric",
+    "water- and dirt-resistant bottom with a practical, low-gloss base",
+    "machine-washable construction that should still look fluffy and full when staged clean"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "self-warming, cozy feel described as calming and anxiety-relieving",
+    "soft, squishy, cushy comfort that pets sink into",
+    "burrow-friendly and snuggle-friendly nesting effect",
+    "some reviewers mention an initial smell or odd odor, so keep the scene fresh, aired-out, and clean rather than perfumed",
+    "washable convenience is important, but several reviews warn that washing can affect fluff and texture, so show the bed looking full, brushed, and intact",
+    "no visible liquid or ingredient story is needed; the sensory cue is warmth, softness, and a clean laundry-ready presentation"
+  ],
+  "customer_visual_consensus": "Most reviewers agree the bed looks and feels very soft, cozy, and pet-inviting, with a round shape that encourages curling up and leaning into the sides. The overall atmosphere is warm and homey, often described as a favorite spot for dogs and cats who like to snuggle, burrow, or spread out in a cushioned nest. At the same time, some reviews are sensitive to texture changes after washing, so the best visual read is plush, full, and freshly fluffed.",
+  "pitfalls_to_avoid": [
+    "do not show the wrong color family such as light blue, sage, taupe, pink, or purple",
+    "do not make the surface look slick, flat, or underfilled",
+    "do not depict a removable cover or unzip feature as the main promise",
+    "do not show a thin, collapsed, or matted bed",
+    "do not imply a hard orthopedic foam block or a rigid structure",
+    "do not include readable brand labels or fake packaging text",
+    "do not make the blanket look like a separate unrelated textile"
+  ],
+  "visual_translation_notes": "Stage the bundle as a premium cozy object first: a dark chocolate donut bed with a visibly lofty rim, paired with a matching throw folded nearby so the viewer immediately reads a complete snuggle system. Use soft, warm daylight or a gentle studio bounce to bring out the plush pile without creating shine; the surface should catch light in tiny, velvety highlights, not glossy reflections. To translate the calming, self-warming, burrow-friendly promise, place the bed in a quiet domestic setting with a relaxed pet curled into the center or tucked against the rim, and let the blanket drape in a way that suggests enclosure and warmth. For washability and practicality, include a clean, lint-free floor or a laundry-adjacent detail like a neatly folded blanket edge or a fresh, brushed finish—never a messy, damp, or damaged look. The whole frame should feel soft, safe, and lived-in, with the bed reading as full, cushioned, and ready for a nap.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "Reviewers repeatedly call out softness, squishiness, and a cozy look, while some complain when the bed appears underfilled or matted. This hero frame should present the true round silhouette, full loft, and matching blanket in a clean, premium way that reinforces the positive consensus.",
+      "prompt": "Photorealistic studio hero shot of a pet bed bundle: a round donut-style cat and dog bed in dark chocolate brown plush faux fur, paired with a matching throw blanket folded beside it. Show the raised rim clearly, with a deep, cushioned center and a full, lofted profile. The surface should look soft, fluffy, and matte with subtle velvety highlights, not shiny. Place the bundle on a clean neutral surface with a warm beige-to-cream backdrop and soft studio bounce lighting that reveals texture and depth. No pets, no props that distract, no readable labels, no logos. Premium e-commerce composition, centered, crisp edges, realistic fabric detail, cozy and inviting atmosphere."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Many reviews describe pets curling up, burrowing, or choosing this bed over other spots. This shot should show the nesting effect and the raised sides acting like a pillow, which is one of the most consistent emotional wins in the feedback.",
+      "prompt": "Photorealistic lifestyle scene of a small-to-medium dog or cat curled tightly inside a dark chocolate plush donut pet bed, with the matching throw blanket partially draped nearby as if ready for burrowing. The pet is relaxed, tucked into the center, with paws and chin resting against the raised rim to show the cozy, nest-like shape. Use warm natural daylight from a nearby window, soft shadows, and a calm home interior with neutral textiles and a tidy floor. The bed should look full, cushy, and inviting, with the fur pile visible around the pet. No visible branding, no text, no exaggerated cartoon styling. The mood is restful, safe, and deeply snuggly."
+    },
+    {
+      "shot_index": 3,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Texture is a major point of praise and complaint: people describe it as soft, fluffy, squishy, cushy, or plush, while others note matting or a less shaggy feel after washing. A macro detail shot can prove the tactile quality and the raised rim construction without overpromising removable parts.",
+      "prompt": "Extreme close-up macro of the pet bed’s plush faux-fur surface and raised bolster seam, showing dense, soft pile with a velvety matte finish and a full, cushioned fill beneath. Include a small section of the matching blanket edge in the frame for texture comparison. The lighting should be crisp but gentle, like a premium studio product detail shot, revealing individual fibers, rounded stitching, and the soft loft of the filling. Keep the background blurred and neutral. Emphasize tactile richness, fluffy depth, and a clean, brushed look. No labels, no zipper focus, no fake hardware, no harsh shine. The image should feel touchable and premium."
+    },
+    {
+      "shot_index": 4,
+      "role": "context_lifestyle",
+      "rationale_from_reviews": "Several reviewers mention the bed blending into décor and feeling like a favorite room piece, while others care about easy care and the ability to keep it looking fresh. This shot should place the bundle in a tasteful home environment that feels cozy, calm, and practical.",
+      "prompt": "Photorealistic interior lifestyle shot of the dark chocolate pet bed bundle in a calm living room corner with soft neutral décor, a woven rug, and a low chair or sofa edge nearby. The round bed sits on the floor with the matching throw blanket folded neatly over one side, suggesting a ready-to-use snuggle setup. Use warm daylight mixed with soft ambient bounce, creating a gentle, homey glow and subtle contrast that highlights the plush texture. The scene should feel clean, organized, and lived-in, with no clutter, no visible branding, and no text. The bed should visually blend with the room while still standing out as a cozy focal point."
+    },
+    {
+      "shot_index": 5,
+      "role": "care_and_freshness",
+      "rationale_from_reviews": "Washability is a major concern in the reviews, with some praising easy cleaning and others warning about matting or damage after washing. This image should visually communicate fresh, clean care without showing any misleading removable-cover claim.",
+      "prompt": "Photorealistic care-focused product scene showing the pet bed and matching blanket freshly cleaned and fluffed on a lint-free surface near a laundry room or bright utility nook. The bed should look full, brushed, and intact, with the plush fibers standing up softly and the dark chocolate color appearing rich and even. Add subtle fresh-laundry cues through crisp folded towels, clean white light, and a tidy, airy background, but no detergent bottles with readable labels and no fake product claims. The composition should feel practical and reassuring, as if the bundle has just been carefully laundered and air-finished. Soft daylight, clean shadows, premium editorial styling, no branding."
+    }
+  ]
+}
