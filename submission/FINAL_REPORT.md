@@ -102,9 +102,9 @@ The pipeline passes the structured JSON brief to a secondary text LLM acting as 
 *   **Negative Constraints:** Embeds explicit exclusions (e.g., "no fake certification seals, no barcode, no dense ingredient panel") to suppress hallucinated text and emphasize product silhouette.
 
 ### 3.2 The Critic Agent
-Text-to-image models (`dall-e-3`, `gemini-3.1-flash-image`) frequently introduce artifacts, including unreadable text, anatomical errors, or floating elements. To mitigate these issues, we implemented a Vision-Language Model (VLM) using the `gpt-5-mini` Responses API to perform automated quality assurance, operating in three stages:
+Text-to-image models frequently introduce artifacts, including unreadable text, anatomical errors, or floating elements. To mitigate these issues, we implemented a Vision-Language Model (VLM) using the `gpt-5-mini` Responses API to perform automated quality assurance, operating in three stages:
 
-*   **Evaluation:** Upon generation, DALL-E 3 draft images were converted to base64 encoding and evaluated by the VLM against the intended text prompt.
+*   **Evaluation:** Upon generation, gpt-image-latest draft images were converted to base64 encoding and evaluated by the VLM against the intended text prompt.
 *   **Constraint Criteria:** The VLM's system prompt was configured to prioritize standard e-commerce visual guidelines. It was instructed to reject images containing structural errors such as anatomical impossibilities or excessive hallucinated text.
 *   **Self-Correction:** The VLM prioritized photorealism and structural integrity over strict textual literalism. When an image failed evaluation, it generated a revised prompt (`suggested_prompt_revision`), archived the invalid image to a `/rejected/` directory, and fed the revision back into the image generator.
 
@@ -123,7 +123,7 @@ Text-to-image models (`dall-e-3`, `gemini-3.1-flash-image`) frequently introduce
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{p{2.8cm} p{3.5cm} p{3.5cm} p{3.5cm}}
 \hline
-\textbf{Product} & \textbf{Original} & \textbf{OpenAI (dall-e-3)} & \textbf{Gemini (flash-img)} \\
+\textbf{Product} & \textbf{Original} & \textbf{OpenAI (gpt-image-latest)} & \textbf{Gemini (flash-img)} \\
 \hline
 \textbf{Pet Bed} &
   \includegraphics[width=3.3cm,height=3.3cm,keepaspectratio]{/Users/tahazakir/Documents/reviewrenew/data/og-product-images/pet-bed.jpg} &
@@ -141,7 +141,7 @@ Text-to-image models (`dall-e-3`, `gemini-3.1-flash-image`) frequently introduce
   \includegraphics[width=3.3cm,height=3.3cm,keepaspectratio]{/Users/tahazakir/Documents/reviewrenew/outputs/run_20260421_000114/B0BXSQN4HV/gemini/00_1_hero_product_try1_gemini-3_1-flash-image-preview_00.png} \\
 \hline
 \end{tabular}
-\caption{Hero-shot comparison across all three products: original product photo vs.\ OpenAI (\texttt{dall-e-3}) vs.\ Gemini (\texttt{flash-img}).}
+\caption{Hero-shot comparison across all three products: original product photo vs.\ OpenAI (\texttt{gpt-image-latest}) vs.\ Gemini (\texttt{flash-img}).}
 \label{fig:comparison}
 \end{figure}
 ```
@@ -198,7 +198,7 @@ As shown in Figure 2, the left image was rejected due to an anatomical failure (
 ```{=latex}
 \begin{center}
 \begin{tabular}{cc}
-\includegraphics[width=6.5cm,height=6cm,keepaspectratio]{/Users/tahazakir/Documents/reviewrenew/outputs/B0BG9Q18ZZ/gemini/rejected/lol_what.png} &
+\includegraphics[width=6.5cm,height=6cm,keepaspectratio]{/Users/tahazakir/Documents/reviewrenew/outputs/rejected/cleanser/gemini_cleanser_rejected.png} &
 \includegraphics[width=6.5cm,height=6cm,keepaspectratio]{/Users/tahazakir/Documents/reviewrenew/outputs/run_20260421_000114/B0BG9Q18ZZ/gemini/accepted_improved_after_rejected.png} \\
 \small\textit{Rejected: anatomical error (extra arm)} & \small\textit{Accepted: corrected after VLM revision} \\
 \end{tabular}
