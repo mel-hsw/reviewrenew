@@ -1,0 +1,138 @@
+{
+  "category_imagery_norms": "For pet beds in Cats > Beds & Furniture > Beds, shoppers usually need a fast read on the true silhouette, size, and plushness: a hero frame that shows the donut shape honestly, then in-use images that prove a pet actually nests inside the raised rim. Real listings also need detail shots for removable/washable parts, bottom material, and any support features, because buyers are comparing comfort and durability as much as appearance. High-information-density pages typically split these jobs across multiple gallery frames—hero, in-use, macro, and lifestyle—rather than crowding everything into one image.",
+  "consumer_needs_and_concerns": [
+    "Wants a bed that looks truly plush, not flat or underfilled",
+    "Needs the raised rim and center cushion to provide real support and a wrapped, burrowing feel",
+    "Cares about washability and whether the cover or whole bed comes apart easily",
+    "Worries about durability, tearing, holes, matted fibers, and filler bursting after washing",
+    "Cares that the size matches the pet’s weight and that the bed is not misleadingly small or large",
+    "Notices color accuracy and whether the actual fabric finish matches the pictured shag/lux look"
+  ],
+  "listing_features_elevated_by_reviews": [
+    "Raised rim + super-soft filling + CoziLOFT loft retention should be emphasized, because reviewers repeatedly talk about whether the bed is actually fluffy, supportive, and able to cradle a dog or cat instead of collapsing flat.",
+    "Machine-washable construction should be shown clearly, because reviewers praise easy washing and removable cover behavior in some sizes, while others complain about matted fibers or ruined beds after washing.",
+    "Water and dirt-resistant bottom should be visible in a detail shot, because buyers care about mess protection and floor safety, and several reviews mention accidents, stains, or used-looking product concerns.",
+    "Matching Lux fur pet throw blanket should be included as a bundle element, because reviewers specifically call out the blanket as soft, useful for travel, and appreciated alongside the bed."
+  ],
+  "cross_review_benefits": [
+    "Soft, cozy, and snuggly comfort that pets actively choose over other sleeping spots",
+    "A wrapped, calming feel that helps anxious or restless pets settle and sleep longer",
+    "Easy cleaning/washability is repeatedly valued when it works as expected"
+  ],
+  "brand_visual_codes": [
+    "Dark chocolate brown as the hero color, with a warm cocoa, dessert-like richness",
+    "Lux fur / plush shag look with a soft matte-to-satin nap rather than glossy plastic shine",
+    "Round donut silhouette with a high outer ring and lower center nest",
+    "Cozy, warm, homey mood; soft daylight or gentle studio bounce rather than clinical brightness"
+  ],
+  "shot_plan_rationale": "Start with a truthful hero that locks in the dark chocolate color, round donut silhouette, and plush Lux fur finish, because shoppers are judging whether the bed matches the advertised fluffy look. Follow with an in-use shot showing a cat or dog curled into the center and leaning on the raised rim, since reviews repeatedly stress comfort, burrowing, and calming behavior. Next, use a detail/macro frame to show the bundle relationship between the bed and matching throw blanket, plus the texture, rim loft, and bottom material, because washability, softness, and support are the most debated features. Then add a cleaning/support detail that visually reinforces machine-washable convenience and the water/dirt-resistant bottom, addressing durability and care concerns. Finish with a lifestyle/context shot in a warm home setting to communicate the cozy, furniture-friendly, calming mood that reviewers describe when pets choose this bed over couches or human beds.",
+  "pipeline_meta": {
+    "retrieval_queries": [
+      "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+      "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+      "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+      "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+      "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+      "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+      "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+      "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+      "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+      "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most—what should marketing imagery emphasize?",
+      "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat—independent agreement worth highlighting?",
+      "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look—anything that signals on-shelf or on-brand appearance?"
+    ],
+    "unique_chunks_used": 69,
+    "chunking": {
+      "strategy": "paragraph_batch",
+      "max_tokens": 400,
+      "overlap_tokens": 60
+    },
+    "openai_text_model_q2": "gpt-5.4-mini",
+    "openai_text_model_q3": "gpt-5.4-mini",
+    "q2_harness": {
+      "agent_id": "q2_analyst",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 13987.3,
+      "prompt_tokens": 8456,
+      "completion_tokens": 2095,
+      "total_tokens": 10551
+    },
+    "q3_harness": {
+      "agent_id": "q3_creative",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 4886.04,
+      "prompt_tokens": 3444,
+      "completion_tokens": 721,
+      "total_tokens": 4165
+    }
+  },
+  "product_summary": "This is a Best Friends by Sheri bundle set: the Original Calming Lux Donut Cuddler pet bed paired with a matching Lux fur throw blanket in dark chocolate, medium size. The official positioning is all about plush, self-warming comfort, a raised rim for head and neck support, and a cozy burrowing shape for cats and dogs. Reviews strongly reinforce the softness and the calming, nest-like appeal, with many pets choosing it willingly and settling in deeply. At the same time, shoppers are sensitive to whether the bed arrives as fluffy and supportive as pictured, and whether it holds up after washing.",
+  "visual_attributes": [
+    "deep dark chocolate brown",
+    "round donut nest with a high plush rim",
+    "soft, cloudlike center depression",
+    "luxury faux-fur / shag surface with a dense nap",
+    "matching folded throw blanket with the same plush hand",
+    "warm, cozy silhouette that reads as enveloping"
+  ],
+  "material_and_texture_cues": [
+    "polyester construction",
+    "plush vegan fur / Lux fur feel",
+    "soft, squishy filling",
+    "raised bolster rim with loft",
+    "water- and dirt-resistant bottom",
+    "machine-washable textile surfaces"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "self-warming, calming feel",
+    "anxiety-relieving, settling effect described by reviewers",
+    "supportive for joints, neck, and muscles per official description",
+    "burrowing and nesting comfort",
+    "soft, cushy, snuggly sleep surface",
+    "pets appear to sleep longer and choose the bed repeatedly"
+  ],
+  "customer_visual_consensus": "Most reviewers agree the bed should read as very soft, cozy, and nest-like, with a wrapped feeling that pets sink into and cuddle against. The strongest visual expectation is fullness: a plush donut shape with a supportive rim and a center that does not look thin or flat. The bundle blanket is also consistently perceived as soft and useful, reinforcing the comfort story. Where opinions split is on consistency—some receive a fluffy, high-quality bed, while others report flatter fill, matted texture, or a less luxurious look than the photos suggest.",
+  "pitfalls_to_avoid": [
+    "Do not show a flat, rug-like, or underfilled donut shape; reviews repeatedly complain about beds arriving too flat or lacking support.",
+    "Do not exaggerate the size or make the medium look oversized for large dogs; several reviewers mention size confusion and misleading scale.",
+    "Do not depict a removable cover or zipper system unless clearly supported by the official description for this SKU; reviewers dispute whether the bed unzips as expected.",
+    "Do not imply a glossy, synthetic, or hard surface; the product should read as plush and soft, not slick.",
+    "Do not create fake labels, barcodes, certification badges, or dense packaging text that would be unreadable or misleading in image generation.",
+    "Do not stage impossible physics such as a pet floating above the rim, a blanket standing upright, or stuffing visibly bursting through seams."
+  ],
+  "visual_translation_notes": "Stage the set like a warm, lived-in comfort vignette with controlled studio polish: a cocoa-brown donut bed centered on a neutral floor or soft sofa surface, the matching throw blanket folded nearby or draped in a relaxed arc so the bundle relationship is obvious. Use soft daylight with gentle bounce to reveal the fur nap and the rounded bolster without harsh specular shine; the texture should feel dense, velvety, and touchable. Keep props minimal—perhaps a clean basket edge, a muted throw, or a subtle home corner—so the silhouette and color blocking do the work. For in-use frames, let the pet sink naturally into the center with the rim hugging the body, emphasizing the cocooned, burrowing mood reviewers describe. Avoid cluttered copy-heavy overlays; the visual story should come from shape, plushness, and calm domestic warmth.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "This first frame should establish the exact product truth: the dark chocolate medium donut bed plus matching Lux fur blanket, with a plush, rounded silhouette that does not look flat. Reviews repeatedly judge the bed by fullness, softness, and whether it resembles the pictured fluffy cuddler, so the hero must foreground the rich cocoa color, dense nap, and high rim.",
+      "prompt": "Premium e-commerce hero shot of the Best Friends by Sheri bundle set: the Original Calming Lux Donut Cuddler pet bed in deep dark chocolate brown with the matching Lux fur throw blanket arranged beside it. Center the round donut silhouette so the high plush rim and soft center nest read clearly, with the blanket folded in a relaxed arc to show it is part of the bundle. Photorealistic studio lighting with soft daylight bounce, warm cozy mood, neutral background, honest plush texture, matte-to-satin faux-fur nap, no glossy shine. Emphasize the medium size and the full, fluffy loft of the bed so it does not look flat or underfilled. Minimal styling, no extra props, no readable labels beyond a small, simple brand/product-line cue if needed."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Show a cat or dog curled into the center and leaning against the raised bolster, because many reviewers describe pets choosing the bed, nesting in the crevices, and sleeping longer or more calmly. This shot supports the official claims about self-warming comfort, joint/neck support, and burrowing appeal.",
+      "prompt": "Lifestyle in-use shot of a calm cat curled naturally into the center of the dark chocolate donut bed, body tucked low and chin resting on the raised rim to show true nesting and burrowing comfort. The bed should visibly cradle the pet with a supportive bolster, soft center depression, and enveloping plush fur that suggests self-warming coziness and joint, neck, and muscle support. Warm home interior, soft window light, quiet domestic atmosphere, realistic proportions, no floating pet, no exaggerated fluff. Keep the matching blanket nearby but secondary, reinforcing the bundle without distracting from the pet actually choosing the bed and settling deeply into it."
+    },
+    {
+      "shot_index": 3,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Use a close detail to show the Lux fur texture, the loft of the rim, and the matching blanket material side by side, because reviewers praise softness while also debating whether the bed is truly shaggy, fluffy, or matted. This frame can visually reinforce the bundle value and the premium plush hand that the description promises.",
+      "prompt": "Close macro detail of the bundle materials: the Lux fur surface of the donut bed in dark chocolate brown beside the matching throw blanket, both shown in a tactile side-by-side composition. Focus on the dense shag nap, the rounded bolster loft, and the soft, premium polyester hand so shoppers can judge plushness and texture honestly. Use shallow depth of field, gentle studio light, and warm cocoa tones. The primary idea is touchable softness and bundle value, not a full room scene. Avoid any fake certification seals, dense text, or misleadingly glossy fabric; the finish should look velvety, cozy, and well-filled."
+    },
+    {
+      "shot_index": 4,
+      "role": "care_and_support_detail",
+      "rationale_from_reviews": "Highlight the machine-washable care story and the water/dirt-resistant bottom, since washability is one of the most repeated decision points in reviews. This shot should also quietly address the support debate by showing the center depression and rim structure in a way that suggests cushioning and stability rather than thinness.",
+      "prompt": "Care-and-construction detail shot of the pet bed turned slightly to reveal the water- and dirt-resistant bottom while keeping the plush donut rim and center cushion visible. Show the practical washable story with a clean, plausible laundry-care setup nearby, but do not add readable care labels or full instructions. The bed should still look thick, supportive, and durable after washing, with no matted fibers or seam damage. Warm neutral background, crisp studio lighting, honest materials, and a subtle sense of easy maintenance for pet owners concerned about messes. The focus is the protective bottom surface and the stable, cushioned structure of the bed."
+    },
+    {
+      "shot_index": 5,
+      "role": "context_lifestyle",
+      "rationale_from_reviews": "Finish with a cozy home context that makes the bed feel furniture-friendly and calming, echoing reviews where pets prefer it over couches or human beds and where the blanket is used for extra snuggle support or travel. The mood should be warm, domestic, and soothing, matching the brand’s original-calming identity and the chocolate-brown, comfort-first palette.",
+      "prompt": "Cozy home lifestyle scene in a softly lit living room corner: the dark chocolate donut bed placed on a neutral rug or sofa-side floor with the matching Lux fur throw blanket draped nearby, creating a warm, furniture-friendly comfort vignette. The bed should feel like a calming nest that pets would choose over the couch, with rich cocoa color blocking, plush shag texture, and a rounded silhouette that reads inviting and supportive. Gentle daylight, soft shadows, minimal decor, lived-in but tidy atmosphere. The primary idea is restful domestic comfort and the soothing, original-calming identity of the bundle, with the blanket reinforcing travel-or-extra-snuggle usefulness without becoming the focus."
+    }
+  ]
+}

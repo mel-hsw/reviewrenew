@@ -1,0 +1,145 @@
+{
+  "category_imagery_norms": "Beauty face-cleanser listings usually persuade with a truthful hero pack shot, then a few supporting frames that explain texture, use, and benefits in a fast-scannable way. For this SKU, shoppers would expect clear proof of the non-foaming lotion-like formula, the pump/bottle format, and the key claims that matter most in reviews: fragrance-free, gentle, moisturizing, and suitable for sensitive or dry skin. Real retailer galleries often use multiple frames to separate these jobs—hero, texture, in-use, ingredient/benefit callouts, and a lifestyle or skin-feel frame—so the plan should split those messages across distinct shots rather than crowding one image.",
+  "consumer_needs_and_concerns": [
+    "Wants a cleanser that hydrates and does not leave skin tight, dry, or stripped",
+    "Wants fragrance-free, gentle cleansing for sensitive or allergy-prone skin",
+    "Expects the lotion-like, non-foaming texture to be explained clearly so it does not feel like a mismatch",
+    "Cares about whether it actually removes makeup and excess oil without feeling greasy or leaving residue",
+    "Has packaging anxiety: leaks, loose caps, broken pumps, and arrived-open complaints recur often",
+    "Some reviewers dispute the cleansing strength, saying it can feel watered down, slimy, or not fully rinsed off"
+  ],
+  "listing_features_elevated_by_reviews": [
+    "Non-foaming, lotion-like cleanser — because reviewers repeatedly describe the texture as smooth, creamy, light-lotion-like, and note that the lack of suds is either a surprise or a selling point when hydration matters more than foam.",
+    "Fragrance-free / paraben-free / non-comedogenic / non-drying — because reviewers praise the no-scent experience for allergies and sensitive skin, while others explicitly worry about irritation or ingredients.",
+    "Hydrating formula with hyaluronic acid, ceramides, and glycerin — because many reviewers say it leaves skin soft, moisturized, and less stripped, especially for dry or winter-irritated skin.",
+    "Suitable for normal to dry skin and daily AM/PM use — because reviewers mention nightly routines, repeated use over weeks, and a daily staple feel.",
+    "Dermatologist-developed and National Eczema Association accepted — because reviewers cite dermatologist recommendation and sensitive-skin trust as part of why they chose it."
+  ],
+  "cross_review_benefits": [
+    "Soft, moisturized skin after washing is the most repeated outcome across reviews.",
+    "Gentle, non-stripping cleansing appears repeatedly, especially for dry or sensitive skin.",
+    "Low-to-no scent is consistently valued by reviewers who dislike fragrance or have allergies.",
+    "Several reviewers say it works well as a daily staple or go-to cleanser over time."
+  ],
+  "brand_visual_codes": [
+    "Clinical, dermatologist-trust mood rather than spa-luxury theatrics",
+    "Clean white-and-blue CeraVe-style palette with restrained, pharmacy-adjacent simplicity",
+    "Opaque pump bottle silhouette, practical and utilitarian, not decorative",
+    "Soft studio lighting with crisp highlights and low-gloss surfaces",
+    "Fresh, calm, minimal composition that signals gentle care and sensitive-skin suitability"
+  ],
+  "shot_plan_rationale": "Start with a clean hero_product shot because the category depends on immediate truth: the bottle silhouette, pump format, and restrained clinical branding need to read instantly, especially given repeated review complaints about leakage and pump failure. Next, show consumer_in_use to translate the non-foaming, lotion-like application into a believable daily routine and to reinforce the most repeated benefit—soft, moisturized, non-stripped skin. A formula_or_texture shot should isolate the creamy, smooth, lotion consistency and visually support the hyaluronic acid/ceramide/glycerin hydration story that reviewers keep validating. Then a detail_macro shot can honestly address the pump/cap and bottle closure concerns while also showing the practical, non-sealed packaging truth. Finish with a context_lifestyle frame that places the cleanser in a calm AM/PM bathroom or bedside routine, matching the dermatologist-developed, sensitive-skin, everyday-staple tone that reviewers describe.",
+  "pipeline_meta": {
+    "retrieval_queries": [
+      "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+      "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+      "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+      "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+      "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+      "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+      "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+      "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+      "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+      "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most—what should marketing imagery emphasize?",
+      "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat—independent agreement worth highlighting?",
+      "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look—anything that signals on-shelf or on-brand appearance?"
+    ],
+    "unique_chunks_used": 54,
+    "chunking": {
+      "strategy": "paragraph_batch",
+      "max_tokens": 400,
+      "overlap_tokens": 60
+    },
+    "openai_text_model_q2": "gpt-5.4-mini",
+    "openai_text_model_q3": "gpt-5.4-mini",
+    "q2_harness": {
+      "agent_id": "q2_analyst",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 13916.78,
+      "prompt_tokens": 5827,
+      "completion_tokens": 2319,
+      "total_tokens": 8146
+    },
+    "q3_harness": {
+      "agent_id": "q3_creative",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 5819.44,
+      "prompt_tokens": 3611,
+      "completion_tokens": 731,
+      "total_tokens": 4342
+    }
+  },
+  "product_summary": "This is a CeraVe hydrating facial cleanser in a 16 fl oz pump bottle, positioned as a non-foaming, lotion-form face wash for normal to dry and sensitive skin. The official formula centers on hyaluronic acid, three essential ceramides, and glycerin, with fragrance-free, paraben-free, non-comedogenic positioning and National Eczema Association acceptance. Reviewers most often describe it as smooth, creamy, and gentle, with a soft, moisturized finish rather than a squeaky-clean or sudsy one. The dominant emotional tone is trust in a daily staple that helps dry or irritated skin feel calmer, though packaging reliability and the lack of foam are recurring points of friction.",
+  "visual_attributes": [
+    "Opaque white pump bottle with restrained blue-and-green CeraVe labeling",
+    "Clinical, pharmacy-clean packaging rather than decorative beauty packaging",
+    "Compact, upright silhouette with practical household proportions",
+    "Lotion-like cleanser appearance: smooth, creamy, slightly glossy",
+    "Minimal, information-forward label layout",
+    "Fresh, neutral, low-fragrance visual mood",
+    "Soft white bathroom surfaces and cool clean highlights",
+    "Non-foaming liquid that reads as milky or lotiony rather than airy"
+  ],
+  "material_and_texture_cues": [
+    "Smooth, creamy, lotion-like consistency",
+    "Soft, non-foaming glide on damp skin",
+    "Non-greasy finish is claimed in the description and echoed by some reviewers",
+    "Moisturizing, cushioned feel rather than stripping or squeaky-clean",
+    "Practical plastic pump bottle with utilitarian finish",
+    "Some reviews describe a heavy or slimy feel, so the texture should be shown clearly and honestly"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "Hydration after washing is the most repeated sensory outcome",
+    "Skin feels soft, moisturized, and less tight for many reviewers",
+    "Fragrance-free / no scent is repeatedly mentioned and valued",
+    "Some reviewers report a clean, refreshed feeling without harshness",
+    "Official hydration story is tied to hyaluronic acid, ceramides, glycerin, and MVE Technology",
+    "A minority of reviewers report greasiness, dryness, or a tingly/prickly sensation, so the imagery should not overpromise a universally silky finish"
+  ],
+  "customer_visual_consensus": "Most reviewers agree the cleanser looks and behaves like a creamy lotion rather than a foamy soap. The common visual and sensory read is soft, calm, and clinically simple: a no-fragrance daily cleanser that leaves skin feeling moisturized and not stripped. Many also treat it as a dependable staple, especially for dry or sensitive skin. At the same time, the packaging needs to look secure and intact because leaks, loose caps, and pump failures are a major complaint.",
+  "pitfalls_to_avoid": [
+    "Do not make the cleanser look foamy, bubbly, or soap-like; reviewers repeatedly note the lack of suds",
+    "Do not imply a luxury spa brand look; the brand codes are clinical, minimal, and dermatologist-led",
+    "Do not overstate deep-cleansing or makeup-removal power beyond what the description and reviews support",
+    "Do not show a sealed bottle if the official description says the product is non-sealed",
+    "Do not invent barcode, seal, or label details that are not visible in source material",
+    "Avoid tiny label copy, fake ingredient panels, or unreadable certification marks in the image",
+    "Avoid impossible pump physics, overfull bottle slosh, or dramatic splash effects that conflict with the practical packaging",
+    "Avoid misleading scale; the 16 fl oz bottle should read as a standard large pump cleanser, not a tiny travel size"
+  ],
+  "visual_translation_notes": "Stage the product with a clean, pharmacy-like calm: white or pale cool-gray surfaces, soft blue accents, and gentle daylight that creates crisp edges without harsh glare. The bottle should feel upright, sturdy, and utilitarian, with the pump and label clearly legible at a glance; keep the composition uncluttered so the brand’s clinical trust and sensitive-skin positioning come through. For texture frames, use a small controlled swatch or hand application cue to show the lotion-like, non-foaming glide and the moisturized finish, favoring smooth surface sheen over foam. Props should stay minimal—perhaps a folded white towel, a simple sink edge, or a clean countertop—so the image reads as everyday skincare rather than fragrance or spa indulgence. Shape and color blocking matter more than dense copy: the bottle, pump, and creamy cleanser should do the storytelling.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "Lead with the bottle alone so shoppers immediately see the actual CeraVe pump format, the clinical white-and-blue brand code, and the 16 oz everyday-staple scale. This also sets up trust in a category where several reviews complain about leaks and broken pumps, so the hero should feel upright, stable, and intact.",
+      "prompt": "Hero product shot of a single CeraVe Hydrating Facial Cleanser 16 fl oz pump bottle standing upright on a clean white bathroom surface, pharmacy-clean and minimal. Emphasize the opaque white bottle, restrained blue-and-green CeraVe-style labeling, practical pump geometry, and sturdy everyday size. Soft cool daylight, crisp highlights, low-gloss surfaces, subtle pale blue accents, no clutter. The bottle should look intact and ready to use, with a calm clinical trust mood rather than luxury spa styling. Keep label copy minimal and only broadly legible at a glance; do not add seals, dense text, or extra graphics. Photorealistic product photography, centered composition, honest materials, clean shadows, sensitive-skin friendly aesthetic."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Show the cleanser being applied to damp skin in a calm AM/PM routine because reviewers repeatedly describe it as a nightly staple that leaves skin soft, hydrated, and not stripped. This shot should normalize the non-foaming experience and make the lotion-like application feel intentional rather than disappointing.",
+      "prompt": "Lifestyle in-use skincare scene showing a small amount of the cleanser being smoothed onto damp skin in a bathroom sink routine, with no foam and no bubbles, just a creamy lotion-like glide. The focus is on gentle cleansing and hydration, with skin looking calm, soft, and comfortable rather than squeaky-clean or stripped. Use a neutral hand, a simple white towel, and cool daylight to keep the mood clinical and reassuring. Show the product as fragrance-free, non-drying daily care for normal to dry or sensitive skin, suitable for AM or PM use. Keep the action believable and modest, with a realistic non-foaming texture and a moisturized finish."
+    },
+    {
+      "shot_index": 3,
+      "role": "ingredients_or_sensorial_or_formula",
+      "rationale_from_reviews": "Use a close texture/formula frame to emphasize the smooth, creamy, lotion-like consistency that many reviewers mention, along with the hydration story tied to hyaluronic acid, ceramides, glycerin, and MVE Technology. This is the best place to visually support the repeated praise for moisturized, non-tight skin and the official 24-hour hydration claim.",
+      "prompt": "Macro texture frame isolating the cleanser’s smooth, creamy, lotion-like consistency on a clean white ceramic palette or fingertip, with a soft glossy sheen and no airy suds. Visually support the hydration story with a restrained, clinical composition: pale blue-white backdrop, crisp studio lighting, and a minimal pharmacy-adjacent feel. The texture should read as gentle and cushioned, echoing hyaluronic acid, ceramides, glycerin, and 24-hour hydration without inventing any extra ingredients. Keep it honest and tactile, showing a non-foaming cleanser that feels moisturizing rather than stripping. No dramatic splashes, no luxury spa styling, no dense ingredient copy."
+    },
+    {
+      "shot_index": 4,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Focus on the pump, cap, and bottle closure details because leakage, arrived-open packages, and defective pumps are a major complaint cluster. A clear macro can also reinforce the non-sealed, practical packaging truth while keeping the brand’s minimal, dermatologist-led look.",
+      "prompt": "Detail macro of the pump top and bottle neck, highlighting the practical, utilitarian packaging and the non-sealed truth of the product. Show the cap, pump, and closure clearly in a clean studio close-up, with the bottle upright and secure, suggesting reliable everyday use while acknowledging packaging concerns without dramatizing them. Use crisp soft light, white and cool-gray surfaces, and restrained blue brand accents. The image should feel honest and pharmacy-clean, with no broken parts, no leaking liquid, and no fake certification seals or tiny unreadable labels. Focus on the functional geometry of the pump and the sturdy plastic finish."
+    },
+    {
+      "shot_index": 5,
+      "role": "context_lifestyle",
+      "rationale_from_reviews": "Finish with a quiet bathroom or bedside skincare context that feels clean, calm, and sensitive-skin friendly, matching the fragrance-free, gentle, dermatologist-recommended tone reviewers trust. This shot can subtly communicate daily use, soft skin feel, and the product’s role as a dependable go-to rather than a flashy treatment.",
+      "prompt": "Quiet AM/PM bathroom countertop lifestyle scene with the CeraVe Hydrating Facial Cleanser beside a folded white towel, a simple sink edge, and soft natural daylight. The bottle should be the calm focal point in a minimal, dermatologist-trust setting that signals a dependable daily staple for sensitive or dry skin. Convey fragrance-free, gentle, non-comedogenic care through the clean environment and understated composition, not through heavy text or promotional banners. The mood is fresh, calm, and practical, with the product looking like a go-to cleanser used morning and night. Keep the scene uncluttered, clinically simple, and truthful to the brand’s white-and-blue visual code."
+    }
+  ]
+}

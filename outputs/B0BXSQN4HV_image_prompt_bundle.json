@@ -1,0 +1,136 @@
+{
+  "category_imagery_norms": "For a niche home-accessory SKU like a hat washer, shoppers usually need a fast read on the exact shape, size, and how the cage actually holds a cap. High-converting listings in this category typically split the story across multiple frames: a clean hero, an in-use wash/dishwasher shot, a close-up of the locking clips and bill spacing, and a simple context image showing storage or travel use. Because real retail galleries carry a lot of information density, the best plan is to distribute one job per image rather than crowding one frame with every feature.",
+  "consumer_needs_and_concerns": [
+    "Wants hats to keep their shape during washing and drying, especially the brim/bill and crown.",
+    "Needs an easy, quick-to-lock cage that stays closed through the cycle.",
+    "Wants a product that works in the dishwasher or washer as described, with simple use.",
+    "Concerned about fit for adult vs kid hats, fitted vs snapback, and flat-bill compatibility.",
+    "Concerned about plastic quality issues: shavings, cracking, disintegration, or rough edges that could damage hats or clothes."
+  ],
+  "listing_features_elevated_by_reviews": [
+    "4-sided clip design and secure locking points — because reviewers repeatedly praise that the snaps stay closed and the cage is easy to open/close.",
+    "Rigid shell / strong ribs / durable plastic — because reviewers call out sturdiness, say it stays together in the wash, and contrast it with cheaper-feeling units that break or shed plastic.",
+    "Designed for dishwasher or portable washing machine use — because many reviewers specifically mention dishwasher success and clean results there.",
+    "10mm spacing and brim-shape protection — because reviewers care most about hats coming out in shape, while some complaints focus on poor fit or wrinkling when the cap is forced into the mold."
+  ],
+  "cross_review_benefits": [
+    "Keeps caps clean while preserving shape through wash and dry cycles.",
+    "Easy to use and generally simple to load, lock, and remove.",
+    "Works well in the dishwasher for many users, often leaving hats looking fresh or like new.",
+    "Feels sturdy enough for repeated use, with multiple reviewers noting it holds up over time."
+  ],
+  "brand_visual_codes": [
+    "White plastic, utilitarian and clean-looking rather than decorative.",
+    "Rigid cage silhouette with open lattice / ribbed structure and snap-clasp geometry.",
+    "Bright, practical, no-frills mood; product-first studio lighting with crisp contrast.",
+    "Fresh, laundry-adjacent presentation that suggests cleanliness and order."
+  ],
+  "shot_plan_rationale": "Lead with a true hero shot that shows the white 2-pack as a clean, rigid plastic cage system, because the category is judged first on silhouette, material honesty, and whether it looks sturdy rather than flimsy. Follow with an in-use dishwasher or washer frame to validate the official use case and the most repeated review benefit: hats come out clean while keeping shape. A detail_macro shot should isolate the 4-sided clips, snap points, and bill spacing, since reviewers repeatedly praise secure closure and also debate fit and brim protection. A context_lifestyle shot can show travel/storage or a neat laundry setup to reinforce the official claim that the cages help keep hats safe in storage and on the go. If a fifth image is used, it should be a comparison-style fit/shape frame that quietly addresses the biggest concern in reviews—adult/kid sizing, flat-bill fit, and whether the cage truly preserves the cap’s natural curve.",
+  "pipeline_meta": {
+    "retrieval_queries": [
+      "What concerns, complaints, risks, disappointments, defects, damage, or returns do customers mention?",
+      "What benefits, relief, positive outcomes, loyalty, or praise patterns appear in reviews?",
+      "What expectations versus reality show up: misleading photos, wrong size, wrong texture or type, or comparison to other products?",
+      "What do customers say about appearance, packaging, color, size, shape, texture, sheen, matte or glossy finish, and whether photos match the product?",
+      "What materials, fabric, foam, plastic, liquid, fill, weave, stitching, or construction details are described?",
+      "What defects, wear after washing, pilling, fading, or quality issues are mentioned?",
+      "What outcomes do reviews describe: cleaning results, residue, efficacy, comfort, skin feel, sleep, fit, or how well it works?",
+      "What sensory or physical qualities appear: softness, firmness, weight, warmth, coolness, rigidity, slipperiness, sound, temperature, or scent only if reviewers mention it?",
+      "What mood, atmosphere, lifestyle, or setting do reviews imply?",
+      "Which specific features, claims, or bullets from the product listing do reviewers echo, praise, argue about, or say matter most—what should marketing imagery emphasize?",
+      "Which benefits, outcomes, or feelings do multiple different reviewers mention or repeat—independent agreement worth highlighting?",
+      "What do reviewers say about the brand name, packaging colors, bottle or box design, logo area, or overall look—anything that signals on-shelf or on-brand appearance?"
+    ],
+    "unique_chunks_used": 55,
+    "chunking": {
+      "strategy": "paragraph_batch",
+      "max_tokens": 400,
+      "overlap_tokens": 60
+    },
+    "openai_text_model_q2": "gpt-5.4-mini",
+    "openai_text_model_q3": "gpt-5.4-mini",
+    "q2_harness": {
+      "agent_id": "q2_analyst",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 12800.42,
+      "prompt_tokens": 4509,
+      "completion_tokens": 2056,
+      "total_tokens": 6565
+    },
+    "q3_harness": {
+      "agent_id": "q3_creative",
+      "model": "gpt-5.4-mini",
+      "attempts": 1,
+      "duration_ms": 5196.27,
+      "prompt_tokens": 3101,
+      "completion_tokens": 769,
+      "total_tokens": 3870
+    }
+  },
+  "product_summary": "YEENOR Hat Washer is a white plastic 2-pack cap cage designed to wash, dry, store, and travel with baseball caps while helping them keep their shape. The official description emphasizes a rigid shell, 4-sided clip design, and 10mm spacing for brim protection, and reviews most often echo that it is simple, sturdy, and effective. The dominant emotional tone is practical satisfaction: many users are pleasantly surprised when hats come out clean, fresh, and better-shaped. At the same time, a meaningful minority of reviews raise fit and material-quality concerns, so the imagery should feel honest, clean, and mechanically precise rather than overly glossy or magical.",
+  "visual_attributes": [
+    "white, utilitarian plastic cage",
+    "open ribbed frame with snap-clasp corners",
+    "rectangular/rounded cap-holder silhouette",
+    "clean laundry-room look",
+    "light, airy, no-frills product presentation",
+    "two-pack bundle presence"
+  ],
+  "material_and_texture_cues": [
+    "hard plastic with a rigid, molded feel",
+    "smooth but utilitarian surface finish",
+    "sturdy ribs and firm snap points",
+    "flexible enough to lock and unlock, but meant to hold shape",
+    "protective shell around the brim"
+  ],
+  "sensory_efficacy_and_ingredient_cues": [
+    "hats come out clean, fresh, and sometimes 'like new'",
+    "preserves shape through wash and drying cycles",
+    "helps reduce the look of sweat-stained, misshapen caps",
+    "some reviewers mention smell improvement after washing",
+    "dishwasher use is repeatedly described as effective"
+  ],
+  "customer_visual_consensus": "Most reviewers agree the product is a simple, functional plastic cage that can clean hats while helping them keep their shape. The common visual outcome is a cap that looks fresher, cleaner, and more structured after washing, especially when used in a dishwasher. The overall feel is practical and utilitarian, not fancy, with the strongest positive reactions centered on ease of use and sturdiness. The main visual disagreement is fit: some users see a secure, shape-preserving mold, while others feel the cage is too large, too small, or rough on the hat.",
+  "pitfalls_to_avoid": [
+    "Do not imply universal fit; reviews conflict on adult/kid sizing, fitted vs snapback, and flat-bill compatibility.",
+    "Do not show the hat perfectly centered if that would hide the real concern about crown/button interference or brim compression.",
+    "Do not present the plastic as premium or indestructible; several reviews mention shavings, cracking, disintegration, or cheap material.",
+    "Avoid glossy, luxury packaging cues that conflict with the utilitarian white-plastic product identity.",
+    "Avoid unreadable tiny labels, fake barcodes, fake certification seals, or dense infographic text that would be illegible in generation.",
+    "Avoid impossible physics such as a cap floating perfectly inside the cage with no clip contact or a washer scene that ignores the rigid cage structure."
+  ],
+  "visual_translation_notes": "Stage the product in a bright, crisp, laundry-adjacent environment with cool-white or neutral daylight so the white plastic reads cleanly without looking sterile or clinical. Use simple props only when they clarify function: a baseball cap, a dishwasher rack, a towel, or a neat storage shelf; keep surfaces matte and uncluttered so the cage geometry and snap points remain the visual focus. The palette should stay restrained—white, soft gray, and a hint of cap color if needed for contrast—so the product’s open lattice, rounded bill channel, and clip corners are easy to read. Favor clear shape blocking and honest scale over heavy text overlays; the image should communicate 'sturdy, easy, shape-preserving' at a glance while still acknowledging the practical, no-frills nature of the item.",
+  "planned_shots": [
+    {
+      "shot_index": 1,
+      "role": "hero_product",
+      "rationale_from_reviews": "Show the white 2-pack as a clean, rigid plastic cage with accurate silhouette and visible snap-clasp geometry, because reviewers judge this product first on sturdiness and whether it looks like a real shape-preserving tool rather than a flimsy gadget. The hero should reinforce the official claims of durable plastic, 4-sided clip design, and brim protection while matching the utilitarian, no-frills tone that positive reviews describe.",
+      "prompt": "Premium studio hero shot of the YEENOR white plastic 2-pack hat washer cages, arranged cleanly on a matte light-gray surface with one unit slightly angled to reveal the rigid open ribbed silhouette, rounded cap-holder shape, and snap-clasp corners. Bright cool-white daylight, crisp contrast, no clutter, utilitarian and honest. Emphasize the sturdy molded plastic, smooth but no-frills finish, and the practical two-piece bundle. Show the product as a shape-preserving cap cage rather than a decorative gadget, with the bill-protecting channel and open lattice clearly readable. Minimal styling, fresh laundry-adjacent mood, product-first composition, realistic shadows, no text overlays beyond a small, soft-focus YEENOR brand mark if needed."
+    },
+    {
+      "shot_index": 2,
+      "role": "consumer_in_use",
+      "rationale_from_reviews": "Depict the cage loaded with a baseball cap in a dishwasher or washer context, since many reviewers specifically praise dishwasher use and say hats come out clean, fresh, and still in shape. This shot should foreground the most repeated benefit across reviews: easy use plus a clean result without losing structure.",
+      "prompt": "Photorealistic in-use scene inside a dishwasher rack, showing one baseball cap secured inside the white YEENOR hat washer cage during a wash cycle. The cage sits plausibly on the rack with water droplets and clean kitchen-light reflections, conveying the official dishwasher use case and the review-backed benefit of hats coming out fresh and still shaped. Keep the cap visibly held by the rigid shell and clip geometry, with no floating or impossible positioning. Bright practical lighting, clean stainless-steel environment, simple and believable, focused on easy loading and secure washing. The cap should look protected, not crushed, and the overall mood should suggest simple, effective cleaning without flashy advertising."
+    },
+    {
+      "shot_index": 3,
+      "role": "detail_macro",
+      "rationale_from_reviews": "Zoom in on the 4-sided clips, locking points, and 10mm bill spacing, because reviewers repeatedly mention that the snaps stay closed and that secure closure is a major improvement over other brands. This detail shot also helps address concerns about fit and brim pressure by showing the actual contact points and rigid ribs from the official description.",
+      "prompt": "Macro detail shot focused tightly on the 4-sided clip design, locking points, and the 10mm bill-spacing channel of the YEENOR hat washer. Use a shallow depth of field to isolate the snap-clasp geometry, sturdy ribs, and the protective curve that helps preserve the brim shape. Bright neutral studio light, crisp edges, honest plastic texture, no premium gloss. The composition should make the secure closure feel easy to open and lock, while also showing how the cage supports the cap without overcompressing it. Include only a partial cap edge for context, with the mechanism as the hero. No tiny labels, no fake seals, just clear mechanical function and durable utilitarian design."
+    },
+    {
+      "shot_index": 4,
+      "role": "context_lifestyle",
+      "rationale_from_reviews": "Place the cages in a tidy storage or travel setting, since the official description says they help keep hats safe in storage and while traveling, and reviewers frame them as a practical solution for cap lovers and family use. The mood should stay bright and orderly, echoing the clean, fresh outcome reviewers mention after washing.",
+      "prompt": "Clean lifestyle context shot in a tidy laundry-room or travel-storage setting, with the white YEENOR hat washer cages resting neatly beside folded towels and a baseball cap, suggesting safe storage and easy packing for trips. Bright airy daylight, soft gray surfaces, orderly and practical mood, emphasizing the no-frills white plastic and the reusable, sturdy feel. Show the cages as compact, stackable cap holders that keep hats organized between uses, with one cage partially closed to imply quick lock-and-unlock convenience. Keep the scene realistic and uncluttered, using only a cap, towel, and shelf or countertop as props. The visual message should be simple: wash, dry, store, and travel with shape protection."
+    },
+    {
+      "shot_index": 5,
+      "role": "fit_and_shape_clarity",
+      "rationale_from_reviews": "Use a comparison-style frame to clarify adult/kid sizing and the cap’s seated position, because the biggest negative reviews focus on hats being too large, too small, or not fitting the mold as expected. This shot should honestly show the intended shape-preserving function while avoiding overpromising universal fit, especially for flat bills and buttoned crowns.",
+      "prompt": "Comparison-style product scene showing two caps seated in the YEENOR hat washer cages to clarify fit and shape preservation, one adult-sized cap and one smaller kid-sized cap, both positioned honestly within the rigid white plastic frames. Bright neutral studio lighting, clean background, and a straightforward educational composition that quietly addresses sizing concerns without implying universal fit. Show the caps held firmly by the snap-clasp corners and open ribbed shell, with the brim curve protected and the crown supported, while leaving enough visible contact to feel physically plausible. The mood is practical and transparent, highlighting that the product is designed for adult and children’s hats, but not overpromising on every hat style. No dense text, no fake infographic labels, just clear shape and scale."
+    }
+  ]
+}
