@@ -13,3 +13,5 @@ data/chroma/
 # Large Amazon Reviews 2023 JSONL slices — omit from Git for fast clones; use https://amazon-reviews-2023.github.io/ + `git add -f` if you must commit slices.
 data/raw/amazon_reviews_2023/*.jsonl
 outputs/
+.c*
+docs/

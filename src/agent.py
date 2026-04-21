@@ -10,6 +10,7 @@ from .image_gen import generate_product_images, image_prompt_for_model
 from .llm_analysis import analyze_product_with_rag
 from .models import ImagePromptBundle, PipelineStepLog, Product
 from .rag import ReviewRAGIndex
+from .vlm_qa import evaluate_image
 
 
 @dataclass
@@ -31,11 +32,12 @@ def run_pipeline(
     chroma_dir: Path | None = None,
     *,
     skip_images: bool = False,
+    enable_vlm_qa: bool = False,
 ) -> AgentState:
     """
     Agentic workflow (sequential with explicit steps):
       load → index (RAG) → Q2 analyst LLM (RAG + ReviewImageryBrief) → Q3 creative LLM (prompts) → merge bundle
-      → optional image gen (OpenAI + Gemini when configured).
+      → (Optional) image gen (OpenAI + Gemini) with optional VLM QA reflection loop.
 
     If ``skip_images`` is True, indexing and LLM bundle generation still run; image generation is omitted
     (e.g. chunking A/B without calling image APIs).
@@ -102,20 +104,57 @@ def run_pipeline(
                 label = f"{i:02d}_{shot.shot_index}_{role_slug}"
                 pr = image_prompt_for_model(shot.prompt, model, provider=provider)
                 _log(state, "image_gen", f"{p.asin} {provider} {model} {label}")
-                imgs = generate_product_images(
-                    pr,
-                    model=model,
-                    n=1,
-                    out_dir=out_sub,
-                    basename=label,
-                )
-                paths_asin.setdefault(provider, []).extend(str(x) for x in imgs)
+                
+                tries = 0
+                max_tries = config.VLM_MAX_RETRIES + 1 if enable_vlm_qa else 1
+                current_pr = pr
+                final_imgs = []
+                
+                while tries < max_tries:
+                    tries += 1
+                    imgs = generate_product_images(
+                        current_pr,
+                        model=model,
+                        n=1,
+                        out_dir=out_sub,
+                        basename=f"{label}_try{tries}" if enable_vlm_qa else label,
+                    )
+                    
+                    if not enable_vlm_qa or tries == max_tries:
+                        final_imgs = imgs
+                        break
+                        
+                    if not imgs:
+                        break
+                        
+                    img_path = imgs[0]
+                    qa = evaluate_image(img_path, current_pr, bundle.pitfalls_to_avoid)
+                    _log(state, "vlm_qa", f"{p.asin} {provider} {model} {label} try {tries} passed={qa.passed} critique={qa.visual_critique}")
+                    
+                    if qa.passed:
+                        final_imgs = imgs
+                        break
+                    else:
+                        rejected_dir = out_sub / "rejected"
+                        rejected_dir.mkdir(exist_ok=True)
+                        dest_path = rejected_dir / img_path.name
+                        img_path.rename(dest_path)
+                        
+                        # Save the rejection reason next to the image
+                        reason_path = dest_path.with_suffix('.txt')
+                        reason_text = f"CRITIQUE:\n{qa.visual_critique}\n\nSUGGESTED REVISION:\n{qa.suggested_prompt_revision}"
+                        reason_path.write_text(reason_text, encoding="utf-8")
+                        
+                        _log(state, "vlm_qa", f"Rejected image saved to {dest_path}")
+                        current_pr = image_prompt_for_model(qa.suggested_prompt_revision, model, provider=provider)
+                        
+                paths_asin.setdefault(provider, []).extend(str(x) for x in final_imgs)
 
         state.image_paths[p.asin] = paths_asin
 
     run_log = out_root / "run_log.json"
     payload = {
-        "experiment": {"skip_images": skip_images},
+        "experiment": {"skip_images": skip_images, "enable_vlm_qa": enable_vlm_qa},
         "models_used": {
             "text": config.OPENAI_TEXT_MODEL,
             "text_q3_creative": config.OPENAI_Q3_TEXT_MODEL,

@@ -321,3 +321,13 @@ class TextChunk(BaseModel):
     review_index: int | None = None
     text: str
     chunk_index: int = 0
+
+
+class ImageQAFeedback(BaseModel):
+    passed: bool = Field(description="True if the image satisfies the prompt and avoids pitfalls.")
+    visual_critique: str = Field(description="A brief explanation of what is right/wrong with the image.")
+    suggested_prompt_revision: str = Field(
+        default="",
+        description="The new, optimized text-to-image prompt if passed is False. Empty if passed is True."
+    )
+

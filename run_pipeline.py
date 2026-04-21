@@ -35,6 +35,11 @@ def main() -> int:
         action="store_true",
         help="Run RAG indexing + LLM bundles only (no image API calls). Useful for chunking A/B.",
     )
+    parser.add_argument(
+        "--vlm-qa",
+        action="store_true",
+        help="Enable Vision-Language Model QA reflection loop for image improvement.",
+    )
     args = parser.parse_args()
     if not args.data.exists():
         print(
@@ -51,6 +56,7 @@ def main() -> int:
         catalog.products,
         images_per_model=args.images_per_model,
         skip_images=args.skip_images,
+        enable_vlm_qa=args.vlm_qa,
     )
     print(f"Done. {len(state.logs)} steps. Outputs under outputs/")
     return 0

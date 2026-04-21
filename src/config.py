@@ -53,7 +53,10 @@ OPENAI_IMAGE_SIZE = os.environ.get("OPENAI_IMAGE_SIZE", "1024x1024").strip()
 OPENAI_IMAGE_QUALITY = os.environ.get("OPENAI_IMAGE_QUALITY", "").strip()
 
 # Gemini (Nano Banana) native image generation — uses GEMINI_IMAGE_MODEL + GEMINI_API_KEY.
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+
+VLM_QA_MODEL = os.getenv("VLM_QA_MODEL", "gpt-5-mini").strip()
+VLM_MAX_RETRIES = int(os.getenv("VLM_MAX_RETRIES", "1"))
 # Output resolution for Gemini 3.x image models: 512 | 1K | 2K | 4K (uppercase K; ignored for gemini-2.5-flash-image).
 GEMINI_IMAGE_RESOLUTION = os.environ.get("GEMINI_IMAGE_RESOLUTION", "1K").strip()
 
@@ -61,10 +64,12 @@ GEMINI_IMAGE_RESOLUTION = os.environ.get("GEMINI_IMAGE_RESOLUTION", "1K").strip(
 OPENAI_IMAGE_PROMPT_SUFFIX = os.environ.get("OPENAI_IMAGE_PROMPT_SUFFIX", "").strip()
 GEMINI_IMAGE_PROMPT_SUFFIX = os.environ.get("GEMINI_IMAGE_PROMPT_SUFFIX", "").strip()
 
+import time
 DATA_DIR = _ROOT / "data"
 PRODUCTS_PATH = DATA_DIR / "products.json"
 CHROMA_DIR = DATA_DIR / "chroma"
-OUTPUTS_DIR = _ROOT / "outputs"
+timestamp = time.strftime("%Y%m%d_%H%M%S")
+OUTPUTS_DIR = _ROOT / f"outputs/run_{timestamp}"
 
 # RAG chunking (Q2): strategy + tokenizer limits — see docs/report_draft.md §2.2 and src/chunking.py
 # sliding: fixed-size windows with overlap (good for long reviews).
